@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+     justify-content: space-between;
+     width: 100%;
+     margin: 20px auto;
+     flex-wrap: wrap;
+    }
+    body {
+        font-family: Helvetica,sans-serif;
+        width: 100%;
+        margin: 0;
+        background: url('image/oboi.jpg') no-repeat center;
+        height: 100%;
+        color: #fff;
+        }
+    
+    .card{
+      width: 33.3%;
+      max-width: 400px;
+      border: none;
+     padding: 0;
+        margin: auto;
+    
+    }
+    .card__image {
+     height: 120px;
+     background-color: #a2a2a2;
+     margin: auto;
+        max-height: 60%;
+    }
+    .card__description{
+    margin-top: 15px;
+     text-align: center;
+     font-size: 18px;
+    }
+    ol {
+        text-align: justify;
+     font-size: 20px;
+    }
+    .button-order {
+    all: unset;
+    Padding: 16px 55px;
+    background: white;
+    border-radius: 15px;
+    border: 5px solid black;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+        line-height: 19px;
+    text-decoration: none;
+    margin-left: 80px
+    }
+    
+    @media screen  and (max-width: 768px) {
+    
+    .card {
+        width: 50%;
+         max-width: 100%;
+         margin: auto auto 10px;
+        }
+        .card{
+            width: 95%;
+        }
+    
+    }
+    @media screen  and (max-width: 768px) {
+        .card{
+            width: 95%;
+        }
+    }
+    
+    
+    
+    .topik {
+        padding-left: 250px;
+        margin-top: auto;
+    
+    }
+    
+    .card__drscription {
+    
+    margin-top: 15px;
+     text-align: justify;
+     font-size: 20px;
+    }
+    
+    .jpg {
+        border: 3px solid white;
+    }   
+    
+    
